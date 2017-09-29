@@ -8,7 +8,7 @@ Properties can be set and get with setprop and getprop.  The properties in `/sys
 
 The camera buttons seems to be triggered from `./frameworks/base/core/java/com/android/internal/policy/PhoneFallbackEventHandler.java`.
 
-Key layout is in `./system/usr/keylayout/Vendor_03eb_Product_2042.kl`.
+Key layout is in `./frameworks/base/data/keyboards/Vendor_03eb_Product_2042.kl` which builds to `/system/usr/keylayout/Vendor_03eb_Product_2042.kl`.
 
 Pastebin:
 ```
