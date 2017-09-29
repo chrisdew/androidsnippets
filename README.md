@@ -6,6 +6,8 @@ The presence of the soft button navigation bar is controlled from `./frameworks/
 
 Properties can be set and get with setprop and getprop.  The properties in `/system/build.prop` are only read on a hard reboot, and not on an android reset.
 
+The camera buttons seems to be triggered from `./frameworks/base/core/java/com/android/internal/policy/PhoneFallbackEventHandler.java`.
+
 Pastebin:
 ```
 chmod a+rw /dev/ttymxc4
