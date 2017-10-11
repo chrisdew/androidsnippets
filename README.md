@@ -25,4 +25,4 @@ mount -o remount,rw /dev/block/mmcblk1p5 /system
 /hdd/Android/Sdk/platform-tools/adb push ./frameworks/base/data/keyboards/Vendor_03eb_Product_2042.kl /system/usr/keylayout/
 ```
 
-Kernel config is in: kernel_imx/arch/arm/configs/smarcfimx6_android_defconfig and wipe-out .config at Android build-time.
+Kernel config is in `kernel_imx/arch/arm/configs/smarcfimx6_android_defconfig` and wipes-out `.config` at Android build-time.
